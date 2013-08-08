@@ -1,0 +1,23 @@
+# This is the Name of the Plugin
+name: Example
+
+
+# This is the PLugin Version
+version: 1.0
+
+
+# This is the Author of the plugin
+author: z0mb3eLP
+
+
+# This specifies the main plugin action.
+main: me.z0mb3eLP.example.Example
+
+
+# This is the Commands Section.
+# All commands used in "onCommand()" need to be on this list.
+commands:
+   example:
+     description: This is the Description of the Command.
+     permission: Example.example
+     usage: /<command> <args>
